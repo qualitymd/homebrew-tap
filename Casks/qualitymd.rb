@@ -4,22 +4,22 @@ cask "qualitymd" do
 
   on_macos do
     on_intel do
-      sha256 "e01da1fc9b87b1d4280e6d7cfd75c4405c43017014b04457367a80b18c60ecda"
+      sha256 "bc39fdb1cf2eb8a926d5204f541540731bb6b6c910f4ea653ac9090415ac1aa4"
       url "https://github.com/qualitymd/quality.md/releases/download/v#{version}/qualitymd_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "d88decf8fd93e4961fcb23b581cf6c3732b9ec967982ae1f9fb27b5c35c876b4"
+      sha256 "23954d91b576a1bb8167ec733a13943bad3b32ec2a05c1341518027803e3cdc4"
       url "https://github.com/qualitymd/quality.md/releases/download/v#{version}/qualitymd_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "261fcacd2c8471b8b5bf3c76494413abcc497f3e13b029129ccf176f210e3c3a"
+      sha256 "975aa0f4f8ecc2bc6cf732e7ae0ae0067deb2076f3bee57b316fa8446e13bf37"
       url "https://github.com/qualitymd/quality.md/releases/download/v#{version}/qualitymd_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "89e6d2f7254547343537aa31735fa19e72a801b0f6d511e6de769824b73597cf"
+      sha256 "c1c86b89fede17d04bf9f91694c0c84f664e420c87d022cd0270d4947f3f28c4"
       url "https://github.com/qualitymd/quality.md/releases/download/v#{version}/qualitymd_linux_arm64.tar.gz"
     end
   end
